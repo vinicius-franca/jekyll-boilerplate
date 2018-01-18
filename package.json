@@ -1,11 +1,11 @@
 {
-  "name": "Jekyll Boilerplate",
+  "name": "Jekyll-boilerplate",
   "version": "1.0.0",
   "private": true,
   "description": "Theme front-end assets",
   "scripts": {
     "css:clean": "rm -rf ./web-dist/css && mkdir ./web-dist/css",
-    "css:sass": "node-sass --include-path ./_web-src/scss --source-map ./web-dist/css --output-style extented ./_web-src/scss/main.scss ./web-dist/css/main.min.css",
+    "css:sass": "node-sass --include-path ./_web-src/scss --source-map ./web-dist/css --output-style extented ./_web-src/scss/style.scss ./web-dist/css/style.css",
     "css:build": "npm run css:clean && npm run css:sass",
     "css:watch": "nodemon --ext scss --watch ./_web-src/scss --exec 'npm run css:build'",
     "watch": "npm run css:watch",
