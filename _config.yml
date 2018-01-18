@@ -1,0 +1,27 @@
+# Site settings
+# in the templates available like {{ site.myvariable }}.
+title: 
+description: > # this means to ignore newlines until "baseurl:"
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+copyright: Selecty 2017, Todos os direitos reservados.
+
+# Collections example
+# collections:
+#   corporativo:
+#     output: true
+#     permalink: /corporativo/:path/
+#   consultoria:
+#     output: true
+#     permalink: /consultoria/:path/
+
+# Build settings
+markdown: kramdown
+
+# Contacts
+email: mail@mail.com
+phone: (99) 9999-9999
+facebook: http://www.facebook.com/yourpage
+twitter: http://twitter.com/yourprofile
+linkedin: http://www.linkedin.com/company/yourpage
